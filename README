@@ -1,0 +1,25 @@
+=begin pod
+
+=head1 NAME
+fakeLWP - a Perl 6 subset of LWP (Library for Web in Perl)
+
+=head1 DESCRIPTION
+Perl 5 LWP is very helpful when writing Web client and even some Web
+server software. This is a Perl 6 equivalent.
+
+The right way to build LWP uses socket functions such as connect().
+The Rakudo implementation currently (2009-03-04) lacks these functions
+and needs a major I/O overhaul before making the right way possible.
+
+At present the only solution is to enlist external utilities such as
+wget and netcat to perform the I/O, calling them via run().
+
+SEE ALSO
+fakeDBI, pugs/ext/libwww-perl/lib/LWP/Simple.pm
+
+=head1 LICENSE
+No. Others do too much of that already. This code is to scratch the itch
+-Ofun and to hopefully be obsoleted ASAP.
+
+=end pod
+

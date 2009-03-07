@@ -14,6 +14,8 @@ and needs a major I/O overhaul before making the right way possible.
 At present the only solution is to enlist external utilities such as
 wget and netcat to perform the I/O, calling them via run().
 
+Initially this project will consist of fakeLWP::Simple for a quick win.
+
 SEE ALSO
 fakeDBI, pugs/ext/libwww-perl/lib/LWP/Simple.pm
 
